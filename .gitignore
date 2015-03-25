@@ -2,3 +2,7 @@ bin/
 installer/
 pic/
 Thumbs.db
+Backup/
+[Ww]in32/
+[Bb]uilds/
+[Oo]bjs/

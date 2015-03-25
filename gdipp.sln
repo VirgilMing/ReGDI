@@ -1,64 +1,31 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gdipp_client", "gdipp_client\gdipp_client.vcproj", "{56A076C4-6050-4EAC-B84E-56B0B79A4041}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gdipp_client", "gdipp_client\gdipp_client.vcxproj", "{56A076C4-6050-4EAC-B84E-56B0B79A4041}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gdipp_server", "gdipp_server\gdipp_server.vcproj", "{D8F37991-4EE8-43F0-BFC7-3FCD7393D3BF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gdipp_server", "gdipp_server\gdipp_server.vcxproj", "{D8F37991-4EE8-43F0-BFC7-3FCD7393D3BF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gdipp_loader", "gdipp_loader\gdipp_loader.vcproj", "{00ABAE01-5040-4BB0-A3E5-03EACF768F6D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gdipp_loader", "gdipp_loader\gdipp_loader.vcxproj", "{00ABAE01-5040-4BB0-A3E5-03EACF768F6D}"
 EndProject
-Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "installer_32_en-us", "installer\installer_32_en-us.wixproj", "{C777953B-F65D-44AD-9226-0DFA5306D0F9}"
-	ProjectSection(ProjectDependencies) = postProject
-		{56A076C4-6050-4EAC-B84E-56B0B79A4041} = {56A076C4-6050-4EAC-B84E-56B0B79A4041}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gdipp_demo", "gdipp_demo\gdipp_demo.vcxproj", "{0A18506F-1C1D-4A87-9AB9-BCBAE524CA14}"
 EndProject
-Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "installer_32_zh-cn", "installer\installer_32_zh-cn.wixproj", "{3B5E5201-C728-49BD-B48B-56900D0873AF}"
-	ProjectSection(ProjectDependencies) = postProject
-		{C777953B-F65D-44AD-9226-0DFA5306D0F9} = {C777953B-F65D-44AD-9226-0DFA5306D0F9}
-	EndProjectSection
-EndProject
-Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "installer_64_en-us", "installer\installer_64_en-us.wixproj", "{BBF93EFB-7B85-4445-AD11-DC81840329DE}"
-	ProjectSection(ProjectDependencies) = postProject
-		{C777953B-F65D-44AD-9226-0DFA5306D0F9} = {C777953B-F65D-44AD-9226-0DFA5306D0F9}
-	EndProjectSection
-EndProject
-Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "installer_64_zh-cn", "installer\installer_64_zh-cn.wixproj", "{9E398FBD-7468-4BAE-B00A-FB3F380F28EC}"
-	ProjectSection(ProjectDependencies) = postProject
-		{BBF93EFB-7B85-4445-AD11-DC81840329DE} = {BBF93EFB-7B85-4445-AD11-DC81840329DE}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gdipp_demo", "gdipp_demo\gdipp_demo.vcproj", "{0A18506F-1C1D-4A87-9AB9-BCBAE524CA14}"
-	ProjectSection(ProjectDependencies) = postProject
-		{00ABAE01-5040-4BB0-A3E5-03EACF768F6D} = {00ABAE01-5040-4BB0-A3E5-03EACF768F6D}
-		{2F543B2D-A10E-4607-B427-CF66A61D3872} = {2F543B2D-A10E-4607-B427-CF66A61D3872}
-		{89A1E353-E2DC-495C-B403-742BE206ACED} = {89A1E353-E2DC-495C-B403-742BE206ACED}
-		{D8F37991-4EE8-43F0-BFC7-3FCD7393D3BF} = {D8F37991-4EE8-43F0-BFC7-3FCD7393D3BF}
-		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B} = {78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}
-		{56A076C4-6050-4EAC-B84E-56B0B79A4041} = {56A076C4-6050-4EAC-B84E-56B0B79A4041}
-		{6D260CD4-0C11-4755-80C8-8DC2EDDFB43C} = {6D260CD4-0C11-4755-80C8-8DC2EDDFB43C}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gdipp_pre", "gdipp_pre\gdipp_pre.vcproj", "{52C1A6A6-115B-4C08-B606-CABCC2975013}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gdipp_pre", "gdipp_pre\gdipp_pre.vcxproj", "{52C1A6A6-115B-4C08-B606-CABCC2975013}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pugixml", "pugixml\scripts\pugixml_vs2008_static.vcproj", "{89A1E353-E2DC-495C-B403-742BE206ACED}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gdipp_hook", "gdipp_hook\gdipp_hook.vcproj", "{2F543B2D-A10E-4607-B427-CF66A61D3872}"
-	ProjectSection(ProjectDependencies) = postProject
-		{56A076C4-6050-4EAC-B84E-56B0B79A4041} = {56A076C4-6050-4EAC-B84E-56B0B79A4041}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gdipp_hook", "gdipp_hook\gdipp_hook.vcxproj", "{2F543B2D-A10E-4607-B427-CF66A61D3872}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gdipp_lib", "gdipp_lib\gdipp_lib.vcproj", "{9A32E343-D465-42C2-B313-17E1FB328016}"
-	ProjectSection(ProjectDependencies) = postProject
-		{6D260CD4-0C11-4755-80C8-8DC2EDDFB43C} = {6D260CD4-0C11-4755-80C8-8DC2EDDFB43C}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gdipp_lib", "gdipp_lib\gdipp_lib.vcxproj", "{9A32E343-D465-42C2-B313-17E1FB328016}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sqlite3", "sqlite3\sqlite3.vcproj", "{4F7514B8-CB7B-46E8-B93B-8C0D686185B4}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MurmurHash", "MurmurHash\MurmurHash.vcproj", "{6D260CD4-0C11-4755-80C8-8DC2EDDFB43C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MurmurHash", "MurmurHash\MurmurHash.vcxproj", "{6D260CD4-0C11-4755-80C8-8DC2EDDFB43C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "freetype", "freetype\builds\win32\vc2008\freetype.vcproj", "{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "freetype", "freetype\builds\win32\vc2008\freetype.vcxproj", "{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gdipp_config", "gdipp_config\gdipp_config.vcproj", "{09A6E8A1-3882-47B0-9CE4-1FD445CC450F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gdipp_config", "gdipp_config\gdipp_config.vcxproj", "{09A6E8A1-3882-47B0-9CE4-1FD445CC450F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -92,26 +59,6 @@ Global
 		{00ABAE01-5040-4BB0-A3E5-03EACF768F6D}.Release|Win32.Build.0 = Release|Win32
 		{00ABAE01-5040-4BB0-A3E5-03EACF768F6D}.Release|x64.ActiveCfg = Release|x64
 		{00ABAE01-5040-4BB0-A3E5-03EACF768F6D}.Release|x64.Build.0 = Release|x64
-		{C777953B-F65D-44AD-9226-0DFA5306D0F9}.Debug|Win32.ActiveCfg = Release|x86
-		{C777953B-F65D-44AD-9226-0DFA5306D0F9}.Debug|x64.ActiveCfg = Release|x86
-		{C777953B-F65D-44AD-9226-0DFA5306D0F9}.Release|Win32.ActiveCfg = Release|x86
-		{C777953B-F65D-44AD-9226-0DFA5306D0F9}.Release|Win32.Build.0 = Release|x86
-		{C777953B-F65D-44AD-9226-0DFA5306D0F9}.Release|x64.ActiveCfg = Release|x86
-		{3B5E5201-C728-49BD-B48B-56900D0873AF}.Debug|Win32.ActiveCfg = Release|x86
-		{3B5E5201-C728-49BD-B48B-56900D0873AF}.Debug|x64.ActiveCfg = Release|x86
-		{3B5E5201-C728-49BD-B48B-56900D0873AF}.Release|Win32.ActiveCfg = Release|x86
-		{3B5E5201-C728-49BD-B48B-56900D0873AF}.Release|Win32.Build.0 = Release|x86
-		{3B5E5201-C728-49BD-B48B-56900D0873AF}.Release|x64.ActiveCfg = Release|x86
-		{BBF93EFB-7B85-4445-AD11-DC81840329DE}.Debug|Win32.ActiveCfg = Release|x64
-		{BBF93EFB-7B85-4445-AD11-DC81840329DE}.Debug|x64.ActiveCfg = Release|x64
-		{BBF93EFB-7B85-4445-AD11-DC81840329DE}.Release|Win32.ActiveCfg = Release|x64
-		{BBF93EFB-7B85-4445-AD11-DC81840329DE}.Release|x64.ActiveCfg = Release|x64
-		{BBF93EFB-7B85-4445-AD11-DC81840329DE}.Release|x64.Build.0 = Release|x64
-		{9E398FBD-7468-4BAE-B00A-FB3F380F28EC}.Debug|Win32.ActiveCfg = Release|x64
-		{9E398FBD-7468-4BAE-B00A-FB3F380F28EC}.Debug|x64.ActiveCfg = Release|x64
-		{9E398FBD-7468-4BAE-B00A-FB3F380F28EC}.Release|Win32.ActiveCfg = Release|x64
-		{9E398FBD-7468-4BAE-B00A-FB3F380F28EC}.Release|x64.ActiveCfg = Release|x64
-		{9E398FBD-7468-4BAE-B00A-FB3F380F28EC}.Release|x64.Build.0 = Release|x64
 		{0A18506F-1C1D-4A87-9AB9-BCBAE524CA14}.Debug|Win32.ActiveCfg = Debug|Win32
 		{0A18506F-1C1D-4A87-9AB9-BCBAE524CA14}.Debug|Win32.Build.0 = Debug|Win32
 		{0A18506F-1C1D-4A87-9AB9-BCBAE524CA14}.Debug|x64.ActiveCfg = Debug|x64
