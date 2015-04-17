@@ -14,19 +14,18 @@ This license applies to all files found in such packages, and which do not fall 
 
 This license was inspired by the BSD, Artistic, and IJG (Independent JPEG Group) licenses, which all encourage inclusion and use of free software in commercial and freeware products alike. As a consequence, its main points are that:
 
-- We do not promise that this software works. However, we will be interested in any kind of bug reports. (“as is" distribution)
+- We do not promise that this software works. However, we will be interested in any kind of bug reports. (“as is” distribution)
 
-- You can use this software for whatever you want, in parts or full form, without having to pay us. (“royalty-free" usage)
+- You can use this software for whatever you want, in parts or full form, without having to pay us. (“royalty-free” usage)
  
-- You may not pretend that you wrote this software. If you use it, or only parts of it, in a program, you must acknowledge somewhere in your documentation that you have used the FreeType code. (“credits")
+- You may not pretend that you wrote this software. If you use it, or only parts of it, in a program, you must acknowledge somewhere in your documentation that you have used the FreeType code. (“credits”)
 
 - We specifically permit and encourage the inclusion of this software, with or without modifications, in commercial products. We disclaim all warranties covering The FreeType Project and assume no liability related to The FreeType Project.
 
 Finally, many people asked us for a preferred form for a credit / disclaimer to use in compliance with this license. We thus encourage you to use the following text:
 
 
-> Portions of this software are copyright © (U+00A9) \[year\] The FreeType Project (www.<nolink>freetype.org). All rights reserved. 
-<!-- that was a hack! -->
+> Portions of this software are copyright © (U+00A9) \[year\] The FreeType Project (www.freetype.org). All rights reserved. 
 
 Please replace \[year\] with the value from the FreeType version you actually use.
 
@@ -41,7 +40,7 @@ Throughout this license, the terms “package”, “FreeType Project”, and �
 
 This license applies to all files distributed in the original FreeType Project, including all source code, binaries and documentation, unless otherwise stated in the file in its original, unmodified form as distributed in the original archive. If you are unsure whether or not a particular file is covered by this license, you must contact us to verify this.
 
-The FreeType Project is copyright (C) 1996-2000 by David Turner, Robert Wilhelm, and Werner Lemberg. All rights reserved except as specified below.
+The FreeType Project is copyright © 1996-2000 by David Turner, Robert Wilhelm, and Werner Lemberg. All rights reserved except as specified below.
 
 ### 1. No Warranty
 
@@ -71,10 +70,10 @@ As you have not signed this license, you are not required to accept it. However,
 
 There are two mailing lists related to FreeType:
 
-- freetype@nongnu.org
+- freetype@nongnu.org <br/>
 Discusses general use and applications of FreeType, as well as future and wanted additions to the library and distribution. If you are looking for support, start in this list if you have not found anything to help you in the documentation.
 
-- freetype-devel@nongnu.org
+- freetype-devel@nongnu.org <br/>
 Discusses bugs, as well as engine internals, design issues, specific licenses, porting, etc.
 
-Our home page can be found at http://www.freetype.org
+Our home page can be found at <br/> http://www.freetype.org
